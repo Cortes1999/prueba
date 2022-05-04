@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="../js/scrollreveal.js"></script>
+</head>
+<body>
+    <header class="cabecera">
+        <div id="logo">
+            <img id="imagen"src="../IMG/3.1.png" />
+            <span class="menu">Ver menú</span>
+            <nav class="navegador">
+                <ul class="mostrar">
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
+                </ul>
+
+            </nav>
+            
+        </div> 
+    </header>
+    <main>
+        <form action="" class="formulogin" id="fomulogin">
+            <div class="formulario1 " id="formulariousuario">
+                <label for="usuario" class="formulariolabel">Usuario</label>
+                <div class="formularioinput">
+                    <input type="text" class="formulario1input" name="usuario" id="usuario" placeholder="mariana1999">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">El usuario tiene que ser de 4 a 18 digitos y solo puede contener números, letras, guion bajo y punto.</p>
+
+            </div>
+
+            <div class="formulario1" id="formularionombre">
+                <label for="nombre" class="formulariolabel">Nombre</label>
+                <div class="formularioinput">
+                    <input type="text" class="formulario1input" name="nombre" id="nombre" placeholder="Mariana">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">El usuario tiene que ser de 4 a 18 digitos y solo puede contener números, letras, guion bajo y punto.</p>
+
+            </div>
+            <div class="formulario1" id="formulariopassword">
+                <label for="password" class="formulariolabel">Contraseña</label>
+                <div class="formularioinput">
+                    <input type="password" class="formulario1input" name="password" id="password">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">La contraseña debe ser de 4 a 15 digitos.</p>
+
+            </div>
+
+            <div class="formulario1" id="formulariopassword2">
+                <label for="password2" class="formulariolabel">Repetir Contraseña</label>
+                <div class="formularioinput">
+                    <input type="password" class="formulario1input" name="password2" id="password2">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">Ambas contraseñas no coinciden.</p>
+
+            </div>
+            <div class="formulario1" id="formulariocorreo">
+                <label for="correo" class="formulariolabel">Correo Electrónico</label>
+                <div class="formularioinput">
+                    <input type="email" class="formulario1input" name="correo" id="correo" placeholder="email@email.com">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">El correo solo puede contener letras, puntos, guiones y guion bajo.</p>
+
+            </div>
+            <div class="formulario1" id="formulariotelefono">
+                <label for="telefono" class="formulariolabel">Telefono</label>
+                <div class="formularioinput">
+                    <input type="text" class="formulario1input" name="telefono" id="telefono" placeholder="0000000000">
+                    <i class="formulariovalidacion fas fa-times-circle"></i>
+
+                </div>
+                <p class="formularioerror">El telefono solo puede contener numeros.</p>
+
+            </div>
+            <div class="formulario1" id="terminos">
+                <label class="formulariolabel">
+                    <input class="formularioterminos" type="checkbox" name="terminos" id="terminos">
+                    Acepto los Terminos y Condiciones.
+                </label>
+            </div>
+            <div class="formulariomensaje" id="formulariomensaje">
+                <p><i class="fas fa-exclamation-triangle"></i><b>Error: </b>Por favor rellene el formulario correctamente. </p>
+
+            </div>
+            <div class="formulario1 formularioenviar">
+                <a class="formularioenviar22" href="agradecimientos.html">
+                    Enviar
+                    </a>
+                </a>
+                <p class="formularioexitoso" id="formularioexitoso">Formulario Enviado Exitosamente.</p>
+            </div>
+
+
+        </form>
+    </main>
+    <footer class="pie">
+        <div clas="contenedor">
+
+            <p> © </p>
+            <p>Autora: Mariana Cortés García</p>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
